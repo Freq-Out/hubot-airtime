@@ -13,7 +13,8 @@ describe 'airtime', ->
     require('../src/airtime')(@robot)
 
   it 'registers a respond listener', ->
-    expect(@robot.respond).to.have.been.calledWith(/airtime now/)
+    expect(@robot.respond).to.have.been.calledWith(/airtime now/i)
     
   it 'registers a respond listener', ->
-    expect(@robot.respond).to.have.been.calledWith(/airtime previous track/)
+    expect(@robot.respond).to.have.been.calledWith(/airtime previous track/i)
+
