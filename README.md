@@ -53,7 +53,7 @@ To add the correct environment variable to an existing and working Heroku deploy
 
 ## Links
 
-* GitHub: (https://github.com/Freq-Out/hubot-airtime)[https://github.com/Freq-Out/hubot-airtime]
-* npmjs: (https://npmjs.org/package/hubot-airtime)[https://npmjs.org/package/hubot-airtime]
-* Airtime: (www.sourcefabric.org/en/airtime/)[www.sourcefabric.org/en/airtime/]
+* GitHub: https://github.com/Freq-Out/hubot-airtime
+* npm: https://npmjs.org/package/hubot-airtime
+* Airtime: http://www.sourcefabric.org/en/airtime
 
