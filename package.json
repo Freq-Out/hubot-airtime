@@ -1,0 +1,37 @@
+{
+  "name": "hubot-airtime",
+  "description": "A Hubot script to interact with an Airtime webradio API",
+  "version": "1.0.0",
+  "author": "Stephane Jourdan (https://github.com/sjourdan)",
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "airtime",
+    "sourcefabric"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Freq-Out/hubot-airtime.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Freq-Out/hubot-airtime/issues"
+  },
+  
+  "dependencies": {
+    "coffee-script": "~1.6",
+  },
+  
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+
+  "main": "index.coffee",
+  
+  "scripts": {
+    "test": "script/test"
+  }
+}
