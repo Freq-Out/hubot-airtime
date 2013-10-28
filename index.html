@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Hubot-airtime by Freq-Out</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Hubot-airtime</h1>
+        <h2>A Hubot script to interact with an Airtime webradio API</h2>
+        <a href="https://github.com/Freq-Out/hubot-airtime" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a name="hubot-airtime" class="anchor" href="#hubot-airtime"><span class="octicon octicon-link"></span></a>hubot-airtime</h1>
+
+<p><a href="https://travis-ci.org/Freq-Out/hubot-airtime"><img src="https://travis-ci.org/Freq-Out/hubot-airtime.png?branch=master" alt="Build Status"></a></p>
+
+<p>A Hubot script to interact with an Airtime webradio API.</p>
+
+<p>Airtime is a free and open source radio automation software (<a href="http://www.sourcefabric.org/en/airtime/">http://www.sourcefabric.org/en/airtime/</a>)</p>
+
+<h2>
+<a name="installing" class="anchor" href="#installing"><span class="octicon octicon-link"></span></a>Installing</h2>
+
+<p>Add dependency to Hubot's <code>package.json</code>:</p>
+
+<div class="highlight highlight-json"><pre><span class="p">{</span>
+  <span class="err">...</span>
+  <span class="nt">"dependencies"</span><span class="p">:</span> <span class="p">{</span>
+    <span class="err">...</span>
+    <span class="nt">"hubot-airtime"</span><span class="p">:</span> <span class="s2">"latest"</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+
+<p>Include package in Hubot's <code>external-scripts.json</code>:</p>
+
+<div class="highlight highlight-json"><pre><span class="p">[</span><span class="s2">"hubot-airtime"</span><span class="p">]</span>
+</pre></div>
+
+<h2>
+<a name="configuration" class="anchor" href="#configuration"><span class="octicon octicon-link"></span></a>Configuration</h2>
+
+<pre><code>HUBOT_AIRTIME_URL   # URL to Airtime installation (ie.: http://airtime.myhost.com)
+</code></pre>
+
+<h3>
+<a name="unix" class="anchor" href="#unix"><span class="octicon octicon-link"></span></a>UNIX</h3>
+
+<p>To launch hubot locally with the correct environment variable value: </p>
+
+<pre><code>HUBOT_AIRTIME_URL=http://airtime.myhost.com ./bin/hubot
+</code></pre>
+
+<h3>
+<a name="heroku" class="anchor" href="#heroku"><span class="octicon octicon-link"></span></a>Heroku</h3>
+
+<p>To add the correct environment variable to an existing and working Heroku deployment, you'll issue something like: </p>
+
+<pre><code>heroku config:add HUBOT_AIRTIME_URL=http://airtime.myhost.com
+</code></pre>
+
+<h2>
+<a name="commands" class="anchor" href="#commands"><span class="octicon octicon-link"></span></a>Commands</h2>
+
+<pre><code>hubot airtime now               # Display what's currently broadcasted on this Airtime installation
+hubot airtime next track        # Displays what will be the next track to be broadcasted on Airtime
+hubot airtime next show         # Displays what will be the next show broadcasted on Airtime
+hubot airtime previous track    # Displays what has just been broadcasted on Airtime
+</code></pre>
+
+<h2>
+<a name="links" class="anchor" href="#links"><span class="octicon octicon-link"></span></a>Links</h2>
+
+<ul>
+<li>GitHub: <a href="https://github.com/Freq-Out/hubot-airtime">https://github.com/Freq-Out/hubot-airtime</a>
+</li>
+<li>npm: <a href="https://npmjs.org/package/hubot-airtime">https://npmjs.org/package/hubot-airtime</a>
+</li>
+<li>Airtime: <a href="http://www.sourcefabric.org/en/airtime">http://www.sourcefabric.org/en/airtime</a>
+</li>
+</ul>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/Freq-Out/hubot-airtime/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/Freq-Out/hubot-airtime/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/Freq-Out/hubot-airtime"></a> is maintained by <a href="https://github.com/Freq-Out">Freq-Out</a>.</p>
+
+          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
